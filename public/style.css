@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    background-color: black;
+    font-family: 'Arial',sans-serif;
+    text-align: center;
+    height: 100hv;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+button{
+    padding: 1.2rem 2.5rem;
+    font-size: 3rem;
+    color: red;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s, box-shadow 0.3;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
